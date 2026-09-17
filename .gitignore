@@ -1,0 +1,20 @@
+# Gradle build output and local cache
+.gradle/
+build/
+
+# IntelliJ IDEA local project settings
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Local configuration and API secrets
+.env
+.env.*
+!.env.example
+
+# Other editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
