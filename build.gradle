@@ -22,13 +22,16 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
 	runtimeOnly 'org.postgresql:postgresql'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-
+    //Spring Data JPA
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
 	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
 	//langchain4j
 	implementation 'dev.langchain4j:langchain4j-open-ai-spring-boot4-starter:1.20.0-beta30'
 	implementation 'dev.langchain4j:langchain4j-spring-boot4-starter:1.20.0-beta30'
+	//mapstruct
+	implementation 'org.mapstruct:mapstruct:1.6.3'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
 }
 
 tasks.named('test') {
