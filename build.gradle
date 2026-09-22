@@ -18,6 +18,9 @@ repositories {
 }
 
 dependencies {
+	//Validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	//Web
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
 	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
 	runtimeOnly 'org.postgresql:postgresql'
